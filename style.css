@@ -1,0 +1,102 @@
+*{
+  box-sizing:border box;
+  background-image: url("1110014.jpg")
+}
+.navi{
+  display: flex;
+  justify-content: space-around;
+  top:0px;
+  left:0px;
+  background-color:white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  box-shadow:5px 10px 40px rgba(0,0,0,0.04)
+}
+
+.navi img{
+  width:50px;
+  height:50px;
+  margin-top:0px;
+  margin-left:0px;
+  padding-left: 0px
+}
+ul{
+  list-style: none;
+  display: flex;
+  margin:0px;
+}
+ul li{
+  padding:20px;
+}
+ul li a{
+  text-decoration: none;
+  color: gainsboro;
+  size:0.4em;
+  letter-spacing: 1px;
+}
+ul li a:hover{
+  color: goldenrod;
+  background-color:;
+}
+.navi p a{
+  text-decoration: none;
+  color:darkgoldenrod;
+}
+.navi p{
+  padding-top:10px;
+}
+.navi p a:hover{
+  color:white;
+}
+.navi p{
+  margin:0px;
+  padding-left:40px;
+  size:0.5em;
+}
+.iron img{
+  width:400px;
+  height: 400px;
+  margin:30px;
+  margin-top: 40px;
+}
+.iron{
+  display:flex;
+  justify-content: space-around;
+}
+.content{
+  align-items: center;
+  margin-top:130px;
+  margin-left:0px;
+  margin-right: 140px;
+  color:#7FDBFF;
+  width:400px;
+  align-self: left;
+}
+.content p{
+  color:#0074D9;
+}
+.content h1:hover{
+  color:goldenrod;
+}
+.content p:hover{
+  color:goldenrod;
+}
+.content a{
+  text-decoration: none;
+  color:#001f3f;
+}
+.content a:hover{
+  color:red;
+}
+.anchor{
+  margin-top: 100px;
+  font-weight: 500;
+  font-size: 5em;
+}
+.copy{
+  font-size: 1.4em;
+  margin-left:50px;
+  margin-top:75px;
+  margin-bottom:32px;
+  width:30vw;
+  color: white;
+}

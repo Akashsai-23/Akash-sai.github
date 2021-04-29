@@ -1,0 +1,11 @@
+*{
+  box-sizing:border-box;
+}
+body{
+  color:black;
+  }
+.assemble img{
+  width:500px;
+  height:400px;
+  align-items: center;
+}
